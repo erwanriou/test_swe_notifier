@@ -1,8 +1,8 @@
-const app = require("./app");
-// TODO const transaction = require("./services/transactions")
+const app = require("./app")
+const transaction = require("./services/transactions")
 
 // CONNECT DATABASE
-// TODO transaction("Notifier")
+transaction("Notifier")
 
 // LISTEN APP
-app.listen(3000, () => console.log("Notifier listening on port 3000!"));
+app.listen(3000, () => console.log("Notifier listening on port 3000!"))
